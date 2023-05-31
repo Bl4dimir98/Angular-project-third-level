@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { AuthComponent } from './auth.component';
-import { NoPagesFoundComponent } from './no-pages-found/no-pages-found.component';
 
 
 
@@ -13,7 +12,6 @@ import { NoPagesFoundComponent } from './no-pages-found/no-pages-found.component
     RegisterComponent,
     LoginComponent,
     AuthComponent,
-    NoPagesFoundComponent,
   ],
   imports: [
     CommonModule
@@ -22,7 +20,6 @@ import { NoPagesFoundComponent } from './no-pages-found/no-pages-found.component
     RegisterComponent,
     LoginComponent,
     AuthComponent,
-    NoPagesFoundComponent,
   ],
 })
 export class AuthModule { }

@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { PagesComponent } from './pages.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -12,7 +13,8 @@ import { PagesComponent } from './pages.component';
     DashboardComponent,
     CategoryComponent,
     ProductComponent,
-    PagesComponent
+    PagesComponent,
+    NotFoundComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +23,8 @@ import { PagesComponent } from './pages.component';
     DashboardComponent,
     CategoryComponent,
     ProductComponent,
-    PagesComponent
+    PagesComponent,
+    NotFoundComponent
   ],
 })
 export class PagesModule { }
