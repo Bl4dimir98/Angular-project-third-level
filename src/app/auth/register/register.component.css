@@ -58,3 +58,8 @@ Login register and recover password Page
     position: absolute;
     height: 100%;
 }
+
+#card {
+    border-radius: 15px;
+    border: solid #f7f7f7;
+}
