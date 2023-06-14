@@ -4,7 +4,6 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CategoryComponent } from './category/category.component';
 import { ProductComponent } from './product/product.component';
 import { PagesComponent } from './pages.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 
@@ -16,7 +15,6 @@ import { RouterModule } from '@angular/router';
     CategoryComponent,
     ProductComponent,
     PagesComponent,
-    NotFoundComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +26,6 @@ import { RouterModule } from '@angular/router';
     CategoryComponent,
     ProductComponent,
     PagesComponent,
-    NotFoundComponent,
   ],
 })
 export class PagesModule { }
